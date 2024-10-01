@@ -74,6 +74,59 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #ffffff;
+}
+#autora {
+    background-color: var(--Preto_90);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+}
+#autora img {
+    width: 500px;
+    border-radius: 500px;
+}
+#des_autora {
+    margin-left: 100px;
+    width: 500px;
+    height: 500px;
+    color: var(--Branco);
+    font-size: 23px;
+}
+#rodape{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    background-color:var(--Preto_100);
+    height: 1000px;
+  
+}
+#text_rodape{
+    color: var(--Branco);
+    font-size: 35px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+#rodape img {
+   
+    width: 450px;
+
 }
 
+button {
+    border-radius: 20px;
+    background-color: var(--Amarelo_ouro);
+    margin-top: 250px;
+    padding: 30px;
+    width: 90%;
+    cursor: pointer;
+    font-size: 30px;
+   
+   
+
+}
 
