@@ -1,13 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap ');
 :root {
     --Branco: #ffffff;
     --Amarelo_ouro: #FDC807;
-    --Preto: 100%: #000000;
-    --Preto: 90%: #202226;
+    --Preto_100: #000000;
+    --Preto_90: #202226;
 }
 * {
     margin: 0;
     padding: 0;
 }
+body{
+    font-family:'Montserrat' ;
+}
 #banner{
+    height: 900px;
+    color: white;
+    background-size: cover;
+    background-image: url(/img/header.png);
+    display: flex;
+    align-items: center;
 
 }
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    font-size: 30px;
+}
+#conteudo h1, p,input{
+    padding: 10px;
+}
+input {
+    border: #FDC807;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.planilha {
+    font-size: 20px;
+    width: 97%;
+    background-color:var(--Amarelo_ouro) ;
+    padding: 20px;
+    color:var(--Preto_100);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.secoes {
+    background-color: var(--Preto_90);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo_secoes{
+    color: var(--Branco);
+    width: 500px;
+}
+.conteudo_secoes p {
+    padding: none;
+}
+span{
+    color: var(--Amarelo_ouro);
+}
+.secoes_escuras {
+    background-color: var(--Preto_100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
